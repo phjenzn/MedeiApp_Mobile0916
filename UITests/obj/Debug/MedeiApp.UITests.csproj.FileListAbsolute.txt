@@ -1,0 +1,16 @@
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/MedeiApp.UITests.dll
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/MedeiApp.UITests.pdb
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/nunit.framework.dll
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/Plugin.Connectivity.Abstractions.dll
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/Plugin.Connectivity.dll
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/Xamarin.UITest.dll
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/nunit.framework.xml
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/Xamarin.UITest.xml
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/Plugin.Connectivity.Abstractions.pdb
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/Plugin.Connectivity.Abstractions.xml
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/Plugin.Connectivity.pdb
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/bin/Debug/Plugin.Connectivity.xml
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/obj/Debug/MedeiApp.UITests.csprojResolveAssemblyReference.cache
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/obj/Debug/MedeiApp.UITests.csproj.CoreCompileInputs.cache
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/obj/Debug/MedeiApp.UITests.dll
+/Users/philipjensen/OneDrive/Datamatiker_UCN/4Sem/Mob.Dev.1/MedeiApp/UITests/obj/Debug/MedeiApp.UITests.pdb

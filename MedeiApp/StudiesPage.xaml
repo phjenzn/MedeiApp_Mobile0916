@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedeiApp.StudiesPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="About" Order="Secondary" Clicked="OpenAboutPage" />
+        <ToolbarItem Text="Settings" Order="Secondary" />
+    </ContentPage.ToolbarItems>
+    <StackLayout Padding="10">
+        <StackLayout>
+            <Image Source="medei_logo.png" />
+        </StackLayout>
+        <StackLayout Padding="20">
+            <Label Text="Study" FontSize="50" HorizontalOptions="Center" />
+        </StackLayout>
+        <StackLayout>
+            <ListView ItemsSource="{Binding .}" x:Name="studies" ItemSelected="OnStudySelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Name}" Detail="{Binding Amount }" TextColor="Black">
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

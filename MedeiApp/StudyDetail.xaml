@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedeiApp.StudyDetail">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="About" Order="Secondary" Clicked="OpenAboutPage" />
+        <ToolbarItem Text="Settings" Order="Secondary" />
+    </ContentPage.ToolbarItems>
+    <StackLayout Padding="10">
+        <StackLayout AbsoluteLayout.LayoutBounds="0.5, 0.04, 0.6, 0.15" AbsoluteLayout.LayoutFlags="PositionProportional,  SizeProportional">
+            <Image Source="medei_logo.png" Aspect="AspectFill" />
+        </StackLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.8, 0.6" AbsoluteLayout.LayoutFlags="PositionProportional,  SizeProportional">
+            <StackLayout>
+                <Label x:Name="actualStudy" FontSize="Medium" />
+            </StackLayout>
+            <ListView x:Name="trialList" HasUnevenRows="True" ItemSelected="OnTrialSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="5">
+                                <StackLayout HorizontalOptions="StartAndExpand">
+                                    <StackLayout Orientation="Horizontal" Padding="5,0,5,0">
+                                        <Label Text="{Binding Name}" FontAttributes="Bold" />
+                                        <Label Text="{Binding TrialStat}" />
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" Padding="5,0,5,0">
+                                        <Label Text="Periode" />
+                                        <Label Text="{Binding StartedShort}" />
+                                        <Label Text="{Binding FinishedShort}" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
